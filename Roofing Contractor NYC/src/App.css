@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css');
+
+* {
+  font-family: 'Manrope', sans-serif;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  line-height: 1.6;
+}
+
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.btn {
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.display-4, .display-5, .display-6 {
+  font-weight: 700;
+}
+
+.lead {
+  font-weight: 500;
+}
+
+.bg-dark {
+  background-color: #1a1a1a !important;
+}
+
+.bg-secondary {
+  background-color: #333 !important;
+}
+
+.text-primary {
+  color: #0066cc !important;
+}
+
+.btn-primary {
+  background-color: #0066cc;
+  border-color: #0066cc;
+}
+
+.btn-primary:hover {
+  background-color: #0052a3;
+  border-color: #0052a3;
+}
+
+.btn-outline-primary {
+  color: #0066cc;
+  border-color: #0066cc;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0066cc;
+  border-color: #0066cc;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    min-height: 80vh;
+  }
+  
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  
+  .display-5 {
+    font-size: 2rem;
+  }
+  
+  .display-6 {
+    font-size: 1.75rem;
+  }
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0066cc !important;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #0066cc;
+  box-shadow: 0 0 0 0.2rem rgba(0, 102, 204, 0.25);
+}
+
+.blockquote {
+  border-left: 4px solid #0066cc;
+  padding-left: 1rem;
+}
